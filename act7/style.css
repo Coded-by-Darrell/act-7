@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo-container img {
+    height: 35px;
+}
+
+.mid-section {
+    display: flex;
+    gap: 30px;
+}
+
+.mid-section a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.right-section img {
+    height: 18px;
+}
+
+.landing-page {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('imgs/pexels-cottonbro-3298637.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.landing-page h1 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.landing-page p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.recipe-item {
+    display: flex;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-info {
+    flex: 1;
+}
+
+.recipe-image {
+    width: 300px; 
+    height: 300px; 
+    margin-left: 20px; 
+    border-radius: 8px; 
+}
+
+.container h1 {
+    text-align: center;
+    margin: 40px 0 0 0;
+}
+
